@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React, { useState, useContext, useEffect } from 'react'
 import '../style/searchFilter.css'
 import { CiSearch } from 'react-icons/ci'
 import { IoIosCloseCircleOutline } from 'react-icons/io'
@@ -74,7 +74,9 @@ const SearchFilter = () => {
   const filteredHackathonsBasedOnSearch = hackathons.filter((h) => {
     return h?.challengeName.toLowerCase().includes(searchTerm?.toLowerCase())
   })
-  setHackathons(filteredHackathonsBasedOnSearch)
+  useEffect(() => {
+    setHackathons(filteredHackathonsBasedOnSearch)
+  }, [filteredHackathonsBasedOnSearch])
 
   return (
     <>
