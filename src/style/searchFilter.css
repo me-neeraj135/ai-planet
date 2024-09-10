@@ -1,0 +1,129 @@
+.searchAndSelectWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 964px;
+  height: 50px;
+  border-radius: 12px;
+  margin: auto;
+}
+.ChallengesH3 {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.dropDownIcon {
+  font-size: 2rem;
+}
+.searchBox {
+  display: flex;
+  width: 829px;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 598px 17px 38px;
+  gap: 10px;
+  border-radius: 12px;
+
+  background-color: white;
+}
+.search-icon {
+  width: 17px;
+  height: 17px;
+
+  padding: 1.04px 1.59px 1.59px 1.04px;
+}
+input {
+  width: 164px;
+  height: 18px;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  border: none;
+
+  outline: none;
+}
+
+/*  */
+
+.filter-container {
+  width: 110px;
+
+  border-radius: 10px;
+  background-color: #ddd;
+}
+.fullWidth {
+  width: 300px;
+  position: absolute;
+  right: 110px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+}
+.filter-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  background-color: transparent;
+}
+.filter-header h3 {
+  color: black;
+  font-size: 16px;
+}
+
+.filter-dropdown {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.filter-section {
+  display: flex;
+  flex-direction: column;
+}
+.filterStatusSection {
+  border-bottom: 1px solid rgb(220, 219, 219);
+}
+.filter-section h4 {
+  width: 100%;
+  height: 20px;
+  text-align: left;
+  color: black;
+  margin-bottom: 1rem;
+}
+label {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+input[type='checkbox'] {
+  margin-right: 10px;
+  width: auto;
+}
+
+.filtered-results {
+  margin-top: 20px;
+}
+
+.hackathon-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}

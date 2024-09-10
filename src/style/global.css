@@ -1,0 +1,75 @@
+/* styles.css */
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #003145;
+  --background-color-primary: #003145;
+  --background-color-secondary: #003145;
+  --green-color: #44924c;
+  --card-background: #f8f9fd;
+  --text-color: #64607d;
+  --header-font: 'Montserrat', sans-serif;
+  --body-font: 'Roboto', sans-serif;
+  --border-radius: 8px;
+  --transition-duration: 0.3s;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+h3 {
+  height: 40px;
+
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+h4 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+}
+.container {
+  max-width: 1441px;
+  width: 90%;
+  margin: auto;
+  /* background-color: yellowgreen; */
+}
+.flex {
+  display: flex;
+}
+.justify-cnt-center {
+  justify-content: center;
+}
+.justify-cnt-sb {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+.tex-center {
+  text-align: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.mg-tb {
+  margin: 1rem 0;
+}

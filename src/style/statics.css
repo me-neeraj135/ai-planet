@@ -1,0 +1,55 @@
+.staticsMain {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  background: #002a3b;
+}
+.aiToolsWrapper {
+  width: 1075px;
+  height: 55px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.tool {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid #c4c4c4; */
+}
+.toolImage {
+  width: 55px;
+  height: 55px;
+  margin-right: 32px;
+}
+.aiTool {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vertical {
+  width: 1px;
+  height: 38px;
+  background-color: #c4c4c4;
+}
+.countStyle {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+.toolName {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+}

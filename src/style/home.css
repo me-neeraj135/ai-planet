@@ -1,0 +1,81 @@
+/* HomePage.css */
+
+.heroSection {
+  width: 1442px;
+  height: 625px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background: #003145;
+}
+.toolAndCountSection {
+  display: flex;
+  align-items: center;
+  width: 1442px;
+  height: 200px;
+
+  background: #002a3b;
+  margin: auto;
+}
+.challengeCardSection {
+  display: flex;
+  width: 1439px;
+  height: 902px;
+
+  margin: auto;
+  background: #ffffff;
+}
+.searchFilterSection {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 324px;
+  background: #002a3b;
+  margin: auto;
+}
+.eventCardSection {
+  width: 1440px;
+  height: 1196px;
+
+  background: #003145;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+}
+.cardsWrapper {
+  width: 1172px;
+  height: 996px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 30px;
+  justify-content: center;
+}
+.home-page h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: var(--border-radius);
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: background-color var(--transition-duration),
+    transform var(--transition-duration);
+}
+
+.cta-button:hover {
+  background-color: darken(var(--secondary-color), 10%);
+  transform: scale(1.05);
+}

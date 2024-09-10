@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.statusSection {
+  display: flex;
+  align-items: center;
+  height: 419px;
+  background: #003145;
+}
+.badgeTileWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 818px;
+  height: 228px;
+}
+.badgeBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 464px;
+  height: 34px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 12px;
+  text-align: left;
+  color: #000000;
+  padding-left: 15px;
+  border-radius: 5px;
+
+  background: #ffce5c;
+}
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 818px;
+  height: 112px;
+  top: 218px;
+  left: 126px;
+}
+h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  color: #ffffff;
+}
+.subTitle {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+.skillImage {
+  width: 18px;
+  height: 18px;
+}
+
+.difficulty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  width: 102px;
+  height: 34px;
+
+  border-radius: 5px;
+  background: #f8f9fd;
+}
+.difficulty span {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 12px;
+}
+.btnSection {
+  height: 66.5px;
+
+  background: #ffffff;
+  border: 0.3px solid #dde6ed;
+  box-shadow: 0px 6px 12px 0px #dde6ed;
+}
+
+.headingWrapper {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  padding: 12px;
+  border-bottom: 2px solid #089168;
+}
+.contentSection {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.content {
+  width: 956px;
+  height: 322px;
+  top: 595px;
+  left: 126px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 3rem 0;
+}
+
+.headingWrapper > h2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29.12px;
+  text-align: left;
+  color: #000000;
+}
+
+.content p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #64607d;
+}
+
+.edit-btn,
+.delete-btn {
+  width: 91px;
+  height: 37px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px 20px;
+
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.edit-btn {
+  background-color: #4caf50;
+  color: white;
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}

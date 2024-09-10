@@ -1,0 +1,33 @@
+.spanH2 {
+  color: var(--green-color);
+}
+.challengeCardWrapper {
+  width: 1119px;
+  height: 593px;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.challengeCardHeading {
+  margin-bottom: 3rem;
+}
+.cardTitle {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+  color: black;
+}
+.cardDetail {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #64607d;
+}

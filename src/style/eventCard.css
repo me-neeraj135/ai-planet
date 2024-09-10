@@ -1,0 +1,99 @@
+/* Container for the entire card */
+
+.card {
+  width: 354px;
+  height: 473px;
+  background: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Image styling */
+.card-image img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Content container */
+.card-content {
+  width: 246px;
+  height: 247px;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+/* Badge styling */
+.cardBadge {
+  display: inline-block;
+  width: 87px;
+
+  padding: 10.5px 0;
+
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+
+  border-radius: 5px;
+  background: #ffce5c;
+}
+
+/* Title styling */
+
+/* Countdown title */
+.countdown-title {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Countdown timer styling */
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.countdown-timer div {
+  text-align: center;
+}
+
+.countdown-timer span {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.countdown-timer small {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Participate button styling */
+.participate-button {
+  background-color: #1bc88b;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.participate-button:hover {
+  background-color: #159e6f;
+}
+
+.participate-button::before {
+  content: '✔';
+  font-size: 18px;
+}

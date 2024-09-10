@@ -1,0 +1,20 @@
+/* Header.css */
+
+.app-header {
+  width: 1441px;
+
+  height: 64px;
+
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.app-logo {
+  width: 87px;
+  height: 38.11px;
+}
+.app-logo {
+  object-fit: cover;
+}
